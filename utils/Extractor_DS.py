@@ -33,7 +33,6 @@ def WriteTransductive(dataset, type, mode):
         #relation exsiting in train_relations
         tempL = line[0] + '\t' + line[1] + '\t' + line[2] + '\n'
         if (line[0] in train_entitites and line[2].rstrip() in train_entitites and line[1] in train_relations):
-            #the whole tuple should not appear in train 
             if tempL not in train_lines:
                 f2.write(tempL)
                 output_lines.append(tempL)
