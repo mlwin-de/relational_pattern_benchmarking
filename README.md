@@ -27,4 +27,5 @@ Inductive
 ## Code for dataset Generation
 Each Test folder includes ".py" files that is used to generate that dataset.  
 
+for example /Datasets/FB15K_H/Semi-Inductive-HeadOrTailBased/inverse/n-n.py is the python script to generate inverese pattern evalation dataset for the semi-inductive that is generated with HeadOrTailBased method. 
 
