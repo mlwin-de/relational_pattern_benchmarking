@@ -127,6 +127,7 @@ def checkInductiveness(dataset, type, mode):
 #FB15 - 'Symmetry/People','inverse','AntiSymmetry', 'Inference'
 
 types = ['Symmetry/People','inverse','AntiSymmetry', 'Inference']
+#dataset = 'wn18'
 dataset = 'fb15k'
 for i in types:
     print(dataset +' - ' + i)
