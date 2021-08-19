@@ -34,7 +34,7 @@ and each folder includes 4 subfolders for a testing a specific relational patter
 
 
 ## Code for dataset Generation
-Each Test folder includes ".py" files that is used to generate that dataset.  
+The code for generating the dataset consist of several ".py" python scripts in the folder "/utils".  
 
-for example /Datasets/FB15K_H/Semi-Inductive-HeadOrTailBased/inverse/n-n.py is the python script to generate inverese pattern evalation dataset for the semi-inductive that is generated with HeadOrTailBased method. 
+For example python /utils/anti-symm-extractor-fb15k.py command generates anti symmetric pattern dataset for fb15k dataset.
 
