@@ -27,7 +27,7 @@ and
 
 and each include 4 datasets for each test type: AntiSymmetry, Inference, Symmetry, Inverse.
 
-## 2. Transdictive Setting Dataset
+## 2. Transductive Setting Dataset
 They exist in /Datasets/FB15K_H/Transductive/ folder and /Datasets/WN18_H/Transductive/
 
 and each folder includes 4 subfolders for a testing a specific relational pattern: AntiSymmetry, Inference, Symmetry, Inverse.   
