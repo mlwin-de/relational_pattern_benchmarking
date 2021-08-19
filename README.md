@@ -2,7 +2,7 @@
 The repository includes Benchmarking for KnowledgeGraph link Prediction Task on each specific Relational Pattern and for both inductive and transductive settings.
 
 
-## 1. Inducive Setting Datasets 
+## 1. Inductive Setting Datasets 
 
 Datasets/WN18_H/Inductive/
 Datasets/FB15K_H/Inductive/
