@@ -1,2 +1,2 @@
 # relational_pattern_benchmarking_datasets
-Relational Pattern Benchmarking on the KnowledgeGraph link Prediction Task
+The repository includes Benchmarking for KnowledgeGraph link Prediction Task on each specific Relational Pattern and for both inductive and transductive settings.
