@@ -8,9 +8,7 @@ def readTrain(dataset, type):
     train_entitites.clear()
     all_lines = f1.readlines()
     train_lines.extend(all_lines)
-    #print(train_lines[0:4])
     all_lines = [line.split() for line in all_lines]
-    #print(train_lines[0:4])
     for line in all_lines:
         if line[0] not in train_entitites:
             train_entitites.append(line[0])
@@ -24,7 +22,6 @@ def readTrain(dataset, type):
 
 def WriteTransductive(dataset, type, mode):
     #b_e = 0
-    #print(train_lines[0:4])
     output_lines = []
     f1 = open(dataset + '/'+type+'/'+mode+'.txt', 'r')
     f2 = open(dataset + '/fixedDS/Transductive/'+type+'/'+mode+'.txt', 'w')
@@ -49,7 +46,6 @@ def WriteTransductive(dataset, type, mode):
 
 def WriteInductive(dataset, type, mode):
     #b_e = 0
-    #print(train_lines[0:4])
     output_lines = []
     f1 = open(dataset + '/'+type+'/'+mode+'.txt', 'r')
     f2 = open(dataset + '/fixedDS/Inductive/'+type+'/'+mode+'.txt', 'w')
@@ -61,7 +57,6 @@ def WriteInductive(dataset, type, mode):
         #relation exsiting in train_relations
         tempL = line[0] + '\t' + line[1] + '\t' + line[2] + '\n'
         if (line[0] not in train_entitites and line[2].rstrip() not in train_entitites and line[1] in train_relations):
-            #the whole tuple should not appear in train 
             if tempL not in train_lines:
                 f2.write(tempL)
                 output_lines.append(tempL)
