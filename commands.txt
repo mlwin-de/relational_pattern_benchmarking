@@ -1,3 +1,7 @@
+This file includes the training details and hyperparameters and command lines used to train each model.
+
+
+
 CUDA_VISIBLE_DEVICES=2 python -u codes/run.py --do_train \
  --cuda \
  --do_valid \
