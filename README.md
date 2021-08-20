@@ -1,6 +1,10 @@
 
 The repository includes Benchmarking for KnowledgeGraph link Prediction Task on each specific Relational Pattern and for both inductive and transductive settings.
+The content includes
 
+1. Inductive Setting Datasets 
+2. Transductive Setting Dataset
+3. Train Hyperparamters 
 
 ## 1. Inductive Setting Datasets 
 
@@ -38,3 +42,6 @@ The code for generating the dataset consist of several ".py" python scripts in t
 
 For example python /utils/anti-symm-extractor-fb15k.py command generates anti symmetric pattern dataset for fb15k dataset.
 
+
+## 3. Train Hyperparamters 
+The train Hyperparamters and commands used to train each model is listed in hyperparams.txt
