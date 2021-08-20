@@ -1,0 +1,162 @@
+CUDA_VISIBLE_DEVICES=2 python -u codes/run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path data/FB15k \
+ --model MDE \
+ -n 128 -b 1024 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 150000 \
+ -save models/MDE_FB15k_0 --test_batch_size 16
+ 
+ 
+Running OpenKE models from grail 
+
+Dataset FB15K
+Transductive - Symm_People, inverse, Inference, AntiSymm
+  CUDA_VISIBLE_DEVICES=2 python -u run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path ../data/FB15K \
+ --model DistMult \
+ -n 128 -b 1024 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 6000 \
+ -save models/DistMult_FB15k_0 --test_batch_size 16
+ 
+ 
+ CUDA_VISIBLE_DEVICES=2 python -u run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path ../data/FB15K \
+ --model TransE \
+ -n 128 -b 1024 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 6000 \
+ -save models/TransE_FB15k_0 --test_batch_size 16
+ 
+  
+  CUDA_VISIBLE_DEVICES=2 python -u run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path ../data/FB15K \
+ --model RotatE \
+ -n 128 -b 1024 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 6000 \
+ -save models/RotatE_FB15k_0 --test_batch_size 16 -de
+ 
+ 
+ Dataset - SemiInductiveHeadOrTailBased - Symm_People
+   CUDA_VISIBLE_DEVICES=0 python -u run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path ../data/FB15K \
+ --model RotatE \
+ -n 128 -b 120 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 6000 \
+ -save models/RotatE_FB15k_0 --test_batch_size 2 -de
+ 
+ -Inverse , Inference, AntiSymm
+    CUDA_VISIBLE_DEVICES=1 python -u run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path ../data/FB15K \
+ --model RotatE \
+ -n 128 -b 500 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 6000 \
+ -save models/RotatE_FB15k_0 --test_batch_size 16 -de
+ 
+ 
+ 
+     CUDA_VISIBLE_DEVICES=1 python -u run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path ../data/FB15K \
+ --model MDE \
+ -n 128 -b 500 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 6000 \
+ -save models/MDE_FB15k_0 --test_batch_size 16 -de
+ 
+ Dataset - SemiInductiveCountBased - Symm_People
+     CUDA_VISIBLE_DEVICES=2 python -u run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path ../data/FB15K \
+ --model RotatE \
+ -n 128 -b 120 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 6000 \
+ -save models/RotatE_FB15k_0 --test_batch_size 2 -de
+ 
+ inverse, antisymm, inference
+     CUDA_VISIBLE_DEVICES=0 python -u run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path ../data/FB15K \
+ --model RotatE \
+ -n 128 -b 500 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 6000 \
+ -save models/RotatE_FB15k_0 --test_batch_size 16 -de
+ 
+Inductive - Symm_people
+     CUDA_VISIBLE_DEVICES=0 python -u run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path ../data/FB15K \
+ --model RotatE \
+ -n 128 -b 120 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 6000 \
+ -save models/RotatE_FB15k_0 --test_batch_size 2 -de
+ 
+ inverse, antisymm, inference
+CUDA_VISIBLE_DEVICES=0 python -u run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path ../data/FB15K \
+ --model RotatE \
+ -n 128 -b 500 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 6000 \
+ -save models/RotatE_FB15k_0 --test_batch_size 16 -de
+
+ CUDA_VISIBLE_DEVICES=3 python -u run.py --do_train  --cuda  --do_valid  --do_test  --data_path ../data/FB15K  --model TransE  -n 128 -b 500 -d 500  -g 24.0 -a 1.0 -adv  -lr 0.0001 --max_steps 6000  -save models/transE_FB15k_0 --test_batch_size 16
+ 
+ MDE_graphical
+Dataset :  Transductive
+ 1. python store_graph_properties.py
+ 2. CUDA_VISIBLE_DEVICES=2 python run.py --do_train --do_test -save experiments/kge_baselines_fb15k_t_symm --data_path data/FB15k --model MDE -n 624 -b 210 -d 300 -g 2.5 -a 2.5 -adv -lr .0005 --max_steps 250000 --test_batch_size 16 --valid_steps 10000 --log_steps 10000 --do_valid -node_feat_path data/FB15k/train_node_features --cuda -psi 14.0
+CUDA_VISIBLE_DEVICES=1 python run.py --do_train --do_test -save experiments/kge_baselines_fb15k_SemiInductive_HOTailBased_inverse --data_path data/FB15k --model MDE -n 624 -b 210 -d 300 -g 2.5 -a 2.5 -adv -lr .0005 --max_steps 25000 --test_batch_size 16 --valid_steps 1000 --log_steps 1000 --do_valid -node_feat_path data/FB15k/train_node_features --cuda -psi 14.0
+
+
+MDE from grail
+CUDA_VISIBLE_DEVICES=0 python -u run.py --do_train \
+ --cuda \
+ --do_valid \
+ --do_test \
+ --data_path ../data/FB15K \
+ --model MDE \
+ -n 128 -b 120 -d 500 \
+ -g 24.0 -a 1.0 -adv \
+ -lr 0.0001 --max_steps 12000 \
+ -save models/RotatE_FB15k_0 --test_batch_size 16
+
+ Grail
+ python train.py -d FB15K -e FB15K_t
+ python test_auc.py -d FB15K -e FB15K_t
+ python test_ranking.py -d FB15K -e FB15K_t
