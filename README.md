@@ -1,12 +1,9 @@
 
-The repository includes Benchmarking for KnowledgeGraph link Prediction Task on each specific Relational Pattern and for both inductive and transductive settings.
-The content includes
+Benchmarking for KnowledgeGraph link Prediction Task on each specific Relational Pattern and for both inductive and transductive settings.
 
 
 
-
-
-The details of the studied datasets:
+Details of the studied datasets:
 |       | Dataset Variant                 | Type           | #Entities | #Relations | #Nodes | #Edges| Avg Degree  | Graph Dimension | Strongly Connected Components |
 |-------|-------------|--------------|--------------|---------------|-------------|----------|--------|-------|-------------|
 |       |                                |                 |                |                 |              |              |                  |                  |                             |
