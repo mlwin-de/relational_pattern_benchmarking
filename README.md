@@ -41,6 +41,13 @@ Details of the studied datasets:
 |       | Semi-Inductive-HeadOrTailBased | Inference       | 13362          | 14              | 13362        | 20217        | 3                | 20217            | 3285                        |
 
 
+
+The Results of DistMult
+![image](distmult-fb237.png)
+
+
+
+
 The following is index as:
 
 1. Inductive Setting Datasets 
