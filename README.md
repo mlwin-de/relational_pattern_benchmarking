@@ -9,7 +9,7 @@ The content includes
 The details of the studied datasets:
 
 |       | Dataset Variant                 | Type            |  Entities | Relations | Nodes In Graph | Edges In Graph | Avg Degree Of Graph | Dimension Of Graph | Strongly Connected Components |
-|-------|------------------|-----------------|----------------|-----------------|--------------|--------------|------------------|------------------|----------------|
+|-------|------------------|----------------|----------------|----------------|--------------|--------------|----------------|----------------|-------------|
 |       |                                |                 |                |                 |              |              |                  |                  |                             |
 | FB15K | Transductive                   | Symmetry/People | 1044           | 3               | 1044         | 2508         | 4                | 2508             | 142                         |
 |       | Transductive                   | inverse         | 8005           | 626             | 8005         | 26457        | 6                | 26457            | 224                         |
