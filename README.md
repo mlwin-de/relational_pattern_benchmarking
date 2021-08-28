@@ -10,9 +10,9 @@ The details of the studied datasets:
 
 
 |                                | Dataset Variant  | Type            | Total Entities | Total Relations | Nodes In Graph | Edges In Graph | Avg Degree Of Graph | Dimension Of Graph | Strongly Connected Components |
-| -------------------- | ----------- | ------------ | ------------ | ----------- | ------------ | ------------ | ----------- | ---------- | ----------- |
+| ------------------- | ----------- | ----------- | ------------ | ---------- | ----------- | ----------- | ---------- | --------- | ---------- |
 |                                |                 |                 |                 |                  |              |              |                  |                  |                             |
-| FB15K                          | Transductive    | Symmetry/People | 1044            | 3                | 1044         | 2508         | 4                | 2508             | 142                         |
+| FB15K                          | Transductive    | Symmetry /People | 1044            | 3                | 1044         | 2508         | 4                | 2508             | 142                         |
 | Transductive                   | inverse         | 8005            | 626             | 8005             | 26457        | 6            | 26457            | 224              |
 | Transductive                   | AntiSymmetry    | 8005            | 529             | 8005             | 13277        | 3            | 13277            | 5050             |
 | Transductive                   | Inference       | 1337            | 102             | 1337             | 1072         | 1            | 1072             | 1313             |
