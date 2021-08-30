@@ -45,7 +45,7 @@ Details of the studied datasets:
 The Results of DistMult
 ![image](tables/distmult-fb.png)
 
-
+![image](tables/distmult-wn18.png)
 
 
 The following is index as:
