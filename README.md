@@ -43,7 +43,7 @@ Details of the studied datasets:
 
 
 The Results of DistMult
-![image](distmult-fb237.png)
+![image](tables/distmult-fb.png)
 
 
 
