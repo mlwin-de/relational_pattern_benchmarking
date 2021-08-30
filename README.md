@@ -47,6 +47,30 @@ The Results of DistMult
 
 ![image](tables/distmult-wn18.png)
 
+The Results of TransE
+![image](tables/transe-fb.png)
+
+![image](tables/transe-wn18.png)
+
+The Results of RotatE
+![image](tables/rotate-fb.png)
+
+![image](tables/rotate-wn18.png)
+
+The Results of MDE
+![image](tables/mde-fb.png)
+
+![image](tables/mde-wn18.png)
+
+The Results of QuatE
+![image](tables/quate-fb.png)
+
+![image](tables/quate-wn18.png)
+
+The Results of GraIL
+![image](tables/grail-fb.png)
+
+![image](tables/grail-wn18.png)
 
 The following is index as:
 
