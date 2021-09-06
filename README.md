@@ -73,7 +73,7 @@ The Results of GraIL
 ![image](tables/grail-wn18.png)
 
 The Results of FGA-NN
-![image](tables/gfa-nn-fb.png)
+![image](tables/gfa-nn-fb15k.png)
 
 ![image](tables/gfa-nn-wn18.png)
 
