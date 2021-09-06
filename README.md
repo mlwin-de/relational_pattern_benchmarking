@@ -75,6 +75,8 @@ The Results of GraIL
 The Results of FGA-NN
 ![image](tables/gfa-nn-fb.png)
 
+![image](tables/gfa-nn-wn18.png)
+
 The following is index as:
 
 1. Inductive Setting Datasets 
