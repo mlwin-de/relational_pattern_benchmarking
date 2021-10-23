@@ -259,10 +259,8 @@
 /m/04jplwp	/award/award_winning_work/awards_won./award/award_honor/award_winner	/m/05dbf
 /m/04j53	/olympics/olympic_participating_country/olympics_participated_in	/m/0sx8l
 /m/047csmy	/film/film/starring./film/performance/actor	/m/083chw
-/m/02lyr4	/sports/sports_position/players./sports/sports_team_roster/team	/m/01d5z
 /m/04cl1	/tv/tv_actor/starring_roles./tv/regular_tv_appearance/series	/m/01s81
 /m/0kyk	/people/profession/people_with_this_profession	/m/0lzb8
-/m/042z_g	/film/actor/film./film/performance/film	/m/016z9n
 /m/01lcxbb	/music/artist/contribution./music/recording_contribution/performance_role	/m/07gql
 /m/07j8r	/film/film/distributors./film/film_film_distributor_relationship/distributor	/m/01w92
 /m/0ck27z	/award/award_category/nominees./award/award_nomination/award_nominee	/m/01pcq3

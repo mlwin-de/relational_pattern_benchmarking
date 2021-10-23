@@ -742,5 +742,3 @@
 /m/0342h	/music/performance_role/regular_performances./music/group_membership/member	/m/01d4cb
 /m/03q8ch	/award/award_nominee/award_nominations./award/award_nomination/nominated_for	/m/0cc5qkt
 /m/0cc5qkt	/film/film/edited_by	/m/03q8ch
-/m/01l4zqz	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/01309x
-/m/01309x	/award/award_winner/awards_won./award/award_honor/award_winner	/m/01l4zqz

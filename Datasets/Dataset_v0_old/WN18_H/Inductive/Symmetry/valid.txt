@@ -1,0 +1,12 @@
+isle.n.01	_derivationally_related_form	isle.n.01
+definition.n.01	_derivationally_related_form	define.v.02
+habit.v.01	_derivationally_related_form	habit.n.03
+tiercel.n.01	_derivationally_related_form	tiercel.n.01
+dwindling.n.01	_derivationally_related_form	dwindle.v.01
+define.v.02	_derivationally_related_form	definition.n.01
+address.n.01	_derivationally_related_form	address.v.07
+stint.v.02	_derivationally_related_form	stinter.n.01
+dwindle.v.01	_derivationally_related_form	dwindling.n.01
+hyphenate.v.01	_derivationally_related_form	word_division.n.01
+stinter.n.01	_derivationally_related_form	stint.v.02
+servile.a.01	_derivationally_related_form	obsequiousness.n.01

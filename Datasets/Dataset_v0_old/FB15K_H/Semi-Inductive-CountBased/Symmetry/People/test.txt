@@ -1,0 +1,12 @@
+/m/03h_fk5	/people/person/spouse_s./people/marriage/spouse	/m/01h5f8
+/m/05kh_	/people/person/spouse_s./people/marriage/spouse	/m/01pl9g
+/m/0b66qd	/people/person/spouse_s./people/marriage/spouse	/m/01ggbx
+/m/02k4gv	/base/popstra/celebrity/friendship./base/popstra/friendship/participant	/m/0kxbc
+/m/069d68	/people/person/sibling_s./people/sibling_relationship/sibling	/m/069d71
+/m/069d71	/people/person/sibling_s./people/sibling_relationship/sibling	/m/069d68
+/m/05zdk2	/people/person/spouse_s./people/marriage/spouse	/m/05q9g1
+/m/02778yp	/people/person/spouse_s./people/marriage/spouse	/m/06cddt
+/m/0fthdk	/base/popstra/celebrity/friendship./base/popstra/friendship/participant	/m/07swvb
+/m/0227vl	/base/popstra/celebrity/friendship./base/popstra/friendship/participant	/m/015z4j
+/m/06x58	/base/popstra/celebrity/friendship./base/popstra/friendship/participant	/m/0btxr
+/m/0m66w	/base/popstra/celebrity/friendship./base/popstra/friendship/participant	/m/026c1

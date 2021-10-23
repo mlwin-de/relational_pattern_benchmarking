@@ -88,10 +88,8 @@
 /m/04jplwp	/award/award_winning_work/awards_won./award/award_honor/award_winner	/m/05dbf
 /m/04j53	/olympics/olympic_participating_country/olympics_participated_in	/m/0sx8l
 /m/047csmy	/film/film/starring./film/performance/actor	/m/083chw
-/m/02lyr4	/sports/sports_position/players./sports/sports_team_roster/team	/m/01d5z
 /m/04cl1	/tv/tv_actor/starring_roles./tv/regular_tv_appearance/series	/m/01s81
 /m/0kyk	/people/profession/people_with_this_profession	/m/0lzb8
-/m/042z_g	/film/actor/film./film/performance/film	/m/016z9n
 /m/01lcxbb	/music/artist/contribution./music/recording_contribution/performance_role	/m/07gql
 /m/07j8r	/film/film/distributors./film/film_film_distributor_relationship/distributor	/m/01w92
 /m/0ck27z	/award/award_category/nominees./award/award_nomination/award_nominee	/m/01pcq3
@@ -196,7 +194,6 @@
 /m/0d1pc	/people/profession/people_with_this_profession	/m/01fwk3
 /m/01wy61y	/music/group_member/instruments_played	/m/018vs
 /m/04n6k	/user/tsegaran/random/subject_taxonomy/entry./user/tsegaran/random/taxonomy_entry/subject	/m/087vz
-/m/05183k	/film/film_story_contributor/film_story_credits	/m/01h7bb
 /m/02y_rq5	/award/award_category/winners./award/award_honor/award_winner	/m/0n6f8
 /m/02b61v	/award/award_winning_work/awards_won./award/award_honor/award_winner	/m/03_2y
 /m/0884hk	/award/award_winner/awards_won./award/award_honor/award_winner	/m/06jrhz
@@ -265,11 +262,8 @@
 /m/0265wl	/award/award_category/nominees./award/award_nomination/award_nominee	/m/048_p
 /m/09c7w0	/location/location/contains	/m/02zcnq
 /m/0342h	/music/instrument/instrumentalists	/m/019389
-/m/07bs0	/olympics/olympic_sport/olympic_games_contested	/m/018ljb
 /m/01l9v7n	/award/award_nominee/award_nominations./award/award_nomination/award	/m/054ks3
 /m/0dgrmp	/sports/sports_position/players./soccer/football_roster_position/team	/m/03j6_5
-/m/0dgrmp	/sports/sports_position/players./soccer/football_roster_position/team	/m/06rk8r
-/m/0dgrmp	/sports/sports_position/players./sports/sports_team_roster/team	/m/03j7cf
 /m/07jbh	/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country	/m/01nln
 /m/04kzqz	/film/film/genre	/m/060__y
 /m/0g1rw	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/017s11
@@ -343,7 +337,6 @@
 /m/09sb52	/award/award_category/nominees./award/award_nomination/award_nominee	/m/01wmxfs
 /m/05rfst	/media_common/netflix_title/netflix_genres	/m/01jfsb
 /m/014z8v	/film/actor/film./film/performance/film	/m/03l6q0
-/m/01x6v6	/award/award_nominee/award_nominations./award/award_nomination/nominated_for	/m/027s39y
 /m/0myk8	/music/performance_role/regular_performances./music/group_membership/role	/m/05r5c
 /m/0myk8	/music/performance_role/track_performances./music/track_contribution/role	/m/042v_gx
 /m/06myp	/influence/influence_node/influenced	/m/0lcx
@@ -395,7 +388,6 @@
 /m/03lt8g	/base/popstra/celebrity/friendship./base/popstra/friendship/participant	/m/0443y3
 /m/0gq9h	/award/award_category/nominees./award/award_nomination/award_nominee	/m/0bwh6
 /m/04228s	/film/film_genre/films_in_this_genre	/m/026390q
-/m/02rq7nd	/award/award_nominated_work/award_nominations./award/award_nomination/award	/m/0fqnzts
 /m/04smkr	/people/person/ethnicity	/m/03bkbh
 /m/01gq0b	/people/person/place_of_birth	/m/0cc56
 /m/04shbh	/award/award_nominee/award_nominations./award/award_nomination/nominated_for	/m/02vxq9m
@@ -446,7 +438,6 @@
 /m/05vxdh	/award/award_nominated_work/award_nominations./award/award_nomination/award	/m/0gqwc
 /m/049g_xj	/award/award_winner/awards_won./award/award_honor/award	/m/05zrvfd
 /m/016_v3	/music/genre/parent_genre	/m/0glt670
-/m/01l29r	/award/award_category/winners./award/award_honor/award_winner	/m/026g4l_
 /m/06c1y	/base/aareas/schema/administrative_area/administrative_parent	/m/02j71
 /m/03mqtr	/media_common/netflix_genre/titles	/m/03hkch7
 /m/0ddf2bm	/film/film/other_crew./film/film_crew_gig/film_crew_role	/m/02vxfw_
@@ -639,7 +630,6 @@
 /m/02c6pq	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/048lv
 /m/06t2t	/location/country/form_of_government	/m/01fpfn
 /m/01gtdd	/government/legislative_session/members./government/government_position_held/district_represented	/m/05kkh
-/m/018wrk	/olympics/olympic_games/medals_awarded./olympics/olympic_medal_honor/country	/m/07ssc
 /m/054ks3	/award/award_category/nominees./award/award_nomination/award_nominee	/m/0dw4g
 /m/016zp5	/award/award_nominee/award_nominations./award/award_nomination/award	/m/0bs0bh
 /m/016fyc	/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee	/m/0bs1yy
@@ -660,12 +650,10 @@
 /m/016s_5	/award/award_winner/awards_won./award/award_honor/award	/m/03tcnt
 /m/09sr0	/film/film/produced_by	/m/05kfs
 /m/0dr3sl	/film/film/music	/m/04pf4r
-/m/0_b9f	/award/award_winning_work/awards_won./award/award_honor/award	/m/02y_rq5
 /m/05zr6wv	/award/award_category/nominees./award/award_nomination/award_nominee	/m/06mr6
 /m/0p9sw	/award/award_category/winners./award/award_honor/honored_for	/m/017jd9
 /m/0b3n61	/film/film/genre	/m/05p553
 /m/0gkydb	/award/award_winner/awards_won./award/award_honor/honored_for	/m/0d68qy
-/m/0209xj	/award/award_winning_work/awards_won./award/award_honor/award	/m/03hl6lc
 /m/04htfd	/business/employer/employees./business/employment_tenure/title	/m/0krdk
 /m/01d_h8	/people/profession/people_with_this_profession	/m/0207wx
 /m/0hz55	/tv/tv_program/regular_cast./tv/regular_tv_appearance/actor	/m/01yhvv
@@ -866,7 +854,6 @@
 /m/054ks3	/award/award_category/nominees./award/award_nomination/award_nominee	/m/01wmgrf
 /m/01lv85	/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee	/m/02kxwk
 /m/07szy	/education/educational_institution/students_graduates./education/education/major_field_of_study	/m/0g26h
-/m/02sdk9v	/sports/sports_position/players./sports/sports_team_roster/team	/m/02b10g
 /m/03m4mj	/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee	/m/081lh
 /m/032016	/film/film/genre	/m/05p553
 /m/01s0_f	/education/educational_institution/students_graduates./education/education/student	/m/046m59
@@ -906,7 +893,6 @@
 /m/030qb3t	/film/film_location/featured_in_films	/m/0340hj
 /m/01hmnh	/film/film_genre/films_in_this_genre	/m/076tw54
 /m/03v3xp	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/015rkw
-/m/018ygt	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/0p_2r
 /m/02pqp12	/award/award_category/nominees./award/award_nomination/nominated_for	/m/09p7fh
 /m/041rx	/people/ethnicity/people	/m/0qdwr
 /m/08w7vj	/award/award_winner/awards_won./award/award_honor/award_winner	/m/026v437
@@ -950,7 +936,6 @@
 /m/02lq5w	/olympics/olympic_medal/medal_winners./olympics/olympic_medal_honor/country	/m/05qhw
 /m/018w8	/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country	/m/04gzd
 /m/01p0vf	/people/person/profession	/m/09jwl
-/m/06qgjh	/film/actor/film./film/performance/film	/m/06ztvyx
 /m/01hp22	/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country	/m/03spz
 /m/0f_y9	/music/artist/genre	/m/01lyv
 /m/04rjg	/user/tsegaran/random/taxonomy_subject/entry./user/tsegaran/random/taxonomy_entry/taxonomy	/m/04n6k
@@ -983,7 +968,6 @@
 /m/0342h	/music/instrument/instrumentalists	/m/01wmjkb
 /m/0f2w0	/base/petbreeds/city_with_dogs/top_breeds./base/petbreeds/dog_city_relationship/dog_breed	/m/01t032
 /m/0dz3r	/people/profession/people_with_this_profession	/m/01nqfh_
-/m/05qd_	/film/film_distributor/films_distributed./film/film_film_distributor_relationship/film	/m/0gvs1kt
 /m/02q0k7v	/film/film/other_crew./film/film_crew_gig/film_crew_role	/m/09zzb8
 /m/059j2	/military/military_combatant/military_conflicts./military/military_combatant_group/combatants	/m/015fr
 /m/02qkwl	/film/film/story_by	/m/03rx9
@@ -1043,8 +1027,6 @@
 /m/04t36	/film/film_genre/films_in_this_genre	/m/0gnjh
 /m/01s7qqw	/organization/organization_founder/organizations_founded	/m/01w5gp
 /m/0571m	/film/film/other_crew./film/film_crew_gig/film_crew_role	/m/09vw2b7
-/m/07ssc	/olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/olympics	/m/0blfl
-/m/01pcq3	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/08s_lw
 /m/03bxwtd	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/023p29
 /m/0g60z	/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee	/m/04yqlk
 /m/0pz91	/film/producer/film	/m/0b6f8pf
@@ -1065,7 +1047,6 @@
 /m/0sxgv	/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee	/m/04t38b
 /m/01vx2h	/film/film_job/films_with_this_crew_job./film/film_crew_gig/film	/m/09r94m
 /m/09c7w0	/location/location/contains	/m/02607j
-/m/02_j1w	/sports/sports_position/players./sports/sports_team_roster/team	/m/0f1k__
 /m/0g_w	/award/award/category	/m/0gr42
 /m/028r4y	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/01zg98
 /m/02gdjb	/award/award_category/winners./award/award_honor/award_winner	/m/01vttb9
@@ -1124,7 +1105,6 @@
 /m/016fjj	/award/award_nominee/award_nominations./award/award_nomination/award	/m/0gqy2
 /m/07h5d	/people/person/profession	/m/0dxtg
 /m/04xvlr	/media_common/netflix_genre/titles	/m/095zlp
-/m/047tsx3	/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee	/m/016kkx
 /m/04bpm6	/film/music_contributor/film	/m/087vnr5
 /m/06krf3	/award/award_winning_work/awards_won./award/award_honor/award_winner	/m/0hwbd
 /m/043js	/award/award_winner/awards_won./award/award_honor/honored_for	/m/0221zw
@@ -1174,13 +1154,11 @@
 /m/0b_dy	/award/award_nominee/award_nominations./award/award_nomination/award	/m/0cqh46
 /m/01vvyfh	/award/award_nominee/award_nominations./award/award_nomination/award	/m/01c92g
 /m/06mr6	/award/award_nominee/award_nominations./award/award_nomination/nominated_for	/m/0f4m2z
-/m/09fc83	/film/film/starring./film/performance/actor	/m/01k7d9
 /m/015zyd	/education/educational_institution/students_graduates./education/education/student	/m/07rd7
 /m/024tcq	/government/legislative_session/members./government/government_position_held/governmental_body	/m/0b3wk
 /m/0ccvx	/common/topic/webpage./common/webpage/category	/m/08mbj5d
 /m/02xb2bt	/tv/tv_actor/starring_roles./tv/regular_tv_appearance/series	/m/0ddd0gc
 /m/0bc1yhb	/film/film/genre	/m/03k9fj
-/m/09qv3c	/award/award_category/winners./award/award_honor/award_winner	/m/05bpg3
 /m/01vw20_	/common/topic/webpage./common/webpage/category	/m/08mbj5d
 /m/0bw6y	/people/person/place_of_birth	/m/0cr3d
 /m/0bdw6t	/award/award_category/nominees./award/award_nomination/nominated_for	/m/080dwhx
@@ -1217,8 +1195,6 @@
 /m/032_wv	/film/film/genre	/m/0219x_
 /m/09zzb8	/film/film_job/films_with_this_crew_job./film/film_crew_gig/film	/m/0kv238
 /m/084l5	/american_football/football_team/historical_roster./sports/sports_team_roster/position	/m/01r3hr
-/m/016tw3	/film/production_company/films	/m/0kv238
-/m/0bm2g	/award/award_winning_work/awards_won./award/award_honor/award	/m/019f4v
 /m/0g26h	/education/field_of_study/subdiscipline_of	/m/09s1f
 /m/0lgxj	/olympics/olympic_games/participating_countries	/m/05v8c
 /m/05b4l5x	/award/award_category/winners./award/award_honor/honored_for	/m/051ys82
@@ -1262,7 +1238,6 @@
 /m/04sry	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/04t38b
 /m/0mcl0	/film/film/genre	/m/03k9fj
 /m/0cwfgz	/award/award_nominated_work/award_nominations./award/award_nomination/nominated_for	/m/0q9sg
-/m/023jq1	/tv/tv_writer/tv_programs./tv/tv_program_writer_relationship/tv_program	/m/08cx5g
 /m/01wx756	/music/group_member/instruments_played	/m/0342h
 /m/026wp	/government/form_of_government/countries	/m/02lx0
 /m/02h4rq6	/education/educational_degree/people_with_this_degree./education/education/institution	/m/0cwx_
@@ -1274,7 +1249,6 @@
 /m/041n28	/sports/sports_team/roster./sports/sports_team_roster/position	/m/02nzb8
 /m/01b7h8	/tv/tv_program/regular_personal_appearances./tv/tv_regular_personal_appearance/person	/m/058s57
 /m/02pprs	/music/performance_role/regular_performances./music/group_membership/role	/m/03t22m
-/m/0jvt9	/film/film/music	/m/02sj1x
 /m/0jvt9	/award/award_nominated_work/award_nominations./award/award_nomination/award	/m/0gr51
 /m/01tz6vs	/influence/influence_node/influenced_by	/m/0bwx3
 /m/07s9rl0	/film/film_genre/films_in_this_genre	/m/0djlxb
@@ -1285,7 +1259,6 @@
 /m/0262zm	/award/award_category/nominees./award/award_nomination/award_nominee	/m/01dzz7
 /m/042v_gx	/music/performance_role/track_performances./music/track_contribution/contributor	/m/0144l1
 /m/01chc7	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/02c6pq
-/m/070w7s	/award/award_nominee/award_nominations./award/award_nomination/nominated_for	/m/01b66t
 /m/0pz04	/people/person/employment_history./business/employment_tenure/company	/m/06rq1k
 /m/01z7_f	/award/award_nominee/award_nominations./award/award_nomination/award	/m/0789_m
 /m/0435vm	/film/film/written_by	/m/09pl3s
@@ -1328,8 +1301,6 @@
 /m/01l7cxq	/award/award_winner/awards_won./award/award_honor/award	/m/02nbqh
 /m/054ks3	/award/award_category/winners./award/award_honor/award_winner	/m/012x4t
 /m/0gqy2	/award/award_category/nominees./award/award_nomination/nominated_for	/m/0qm98
-/m/07vf5c	/film/film/genre	/m/07s9rl0
-/m/02sdk9v	/sports/sports_position/players./sports/sports_team_roster/team	/m/02v4vl
 /m/035_2h	/film/film/production_companies	/m/020h2v
 /m/02_286	/location/location/people_born_here	/m/0drc1
 /m/09c7w0	/location/location/contains	/m/0gv10
@@ -1422,7 +1393,6 @@
 /m/03y0pn	/film/film/genre	/m/02kdv5l
 /m/0f7hc	/film/actor/film./film/performance/film	/m/026f__m
 /m/03v1w7	/award/award_winner/awards_won./award/award_honor/honored_for	/m/0ds11z
-/m/02sdk9v	/sports/sports_position/players./sports/sports_team_roster/team	/m/0212mp
 /m/02sdk9v	/sports/sports_position/players./sports/sports_team_roster/team	/m/0ytc
 /m/0jg77	/award/award_nominee/award_nominations./award/award_nomination/award	/m/01c4_6
 /m/0342h	/music/instrument/instrumentalists	/m/01vrt_c
@@ -1436,7 +1406,6 @@
 /m/03_r_5	/sports/sports_team/roster./soccer/football_roster_position/position	/m/02_j1w
 /m/081yw	/government/political_district/representatives./government/government_position_held/legislative_sessions	/m/070mff
 /m/0g1rw	/film/production_company/films	/m/0gcrg
-/m/0258dh	/film/film/starring./film/performance/actor	/m/086qd
 /m/01bcwk	/award/ranked_item/appears_in_ranked_lists./award/ranking/list	/m/09g7thr
 /m/019vhk	/award/award_winning_work/awards_won./award/award_honor/award	/m/04kxsb
 /m/047qxs	/film/film/produced_by	/m/021lby
@@ -1464,7 +1433,6 @@
 /m/025tn92	/sports/sports_league_draft/picks./sports/sports_league_draft_pick/team	/m/0jmfb
 /m/0gr51	/award/award_category/nominees./award/award_nomination/nominated_for	/m/02hfk5
 /m/08mbj32	/common/annotation_category/annotations./common/webpage/topic	/m/0187x8
-/m/0bw20	/film/film/genre	/m/03mqtr
 /m/0jmj	/award/award_nominee/award_nominations./award/award_nomination/award	/m/03ccq3s
 /m/0blq0z	/award/award_nominee/award_nominations./award/award_nomination/nominated_for	/m/07kh6f3
 /m/01mhwk	/award/award_ceremony/awards_presented./award/award_honor/award_winner	/m/017vkx
@@ -1544,7 +1512,6 @@
 /m/0gqyl	/award/award_category/nominees./award/award_nomination/award_nominee	/m/01g257
 /m/01tfck	/celebrities/celebrity/sexual_relationships./celebrities/romantic_relationship/celebrity	/m/046zh
 /m/0jlv5	/award/award_nominee/award_nominations./award/award_nomination/award	/m/09qwmm
-/m/01w2v	/base/biblioness/bibs_location/country	/m/02k54
 /m/02kk_c	/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee	/m/03mdt
 /m/07ssc	/base/locations/countries/continent	/m/02j9z
 /m/01kb2j	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/0bqdvt
@@ -1597,7 +1564,6 @@
 /m/07cdz	/award/award_winning_work/awards_won./award/award_honor/award	/m/040njc
 /m/0q04f	/people/profession/people_with_this_profession	/m/0hskw
 /m/06sks6	/olympics/olympic_games/athletes./olympics/olympic_athlete_affiliation/country	/m/0d05q4
-/m/02nzb8	/sports/sports_position/players./sports/sports_team_roster/team	/m/05xzcz
 /m/05ztrmj	/award/award_category/nominees./award/award_nomination/award_nominee	/m/02vntj
 /m/027ct7c	/film/film/produced_by	/m/012rng
 /m/0bfvd4	/award/award_category/nominees./award/award_nomination/award_nominee	/m/04sx9_
@@ -1710,7 +1676,6 @@
 /m/02px_23	/american_football/football_team/current_roster./sports/sports_team_roster/position	/m/02qpbqj
 /m/02vr7	/award/award_nominee/award_nominations./award/award_nomination/award	/m/02f6xy
 /m/0l14qv	/music/performance_role/regular_performances./music/group_membership/member	/m/0ftps
-/m/03mdt	/award/award_nominee/award_nominations./award/award_nomination/nominated_for	/m/06k176
 /m/05g49	/american_football/football_team/historical_roster./american_football/football_historical_roster_position/position_s	/m/01_9c1
 /m/01htzx	/tv/tv_genre/programs	/m/01xr2s
 /m/05szq8z	/film/film/genre	/m/03k9fj
@@ -1722,7 +1687,6 @@
 /m/02hnl	/music/performance_role/regular_performances./music/group_membership/member	/m/03j0br4
 /m/034qrh	/award/award_nominated_work/award_nominations./award/award_nomination/award	/m/05zr6wv
 /m/06sks6	/olympics/olympic_games/medals_awarded./olympics/olympic_medal_honor/country	/m/03rjj
-/m/02nzb8	/sports/sports_position/players./soccer/football_roster_position/team	/m/021mkg
 /m/0l6mp	/olympics/olympic_games/sports	/m/03hr1p
 /m/05ztrmj	/award/award_category/winners./award/award_honor/award_winner	/m/038rzr
 /m/0bfvd4	/award/award_category/winners./award/award_honor/award_winner	/m/03xkps
@@ -1798,7 +1762,6 @@
 /m/0gq9h	/award/award_category/nominees./award/award_nomination/award_nominee	/m/051wwp
 /m/02p65p	/film/actor/film./film/performance/film	/m/02b6n9
 /m/02_7t	/education/field_of_study/students_majoring./education/education/institution	/m/0b1xl
-/m/03m5k	/music/performance_role/regular_performances./music/group_membership/role	/m/05r5c
 /m/0bynt	/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country	/m/03676
 /m/07kcvl	/sports/sports_team/roster./sports/sports_team_roster/position	/m/023wyl
 /m/05qd_	/film/film_distributor/films_distributed./film/film_film_distributor_relationship/film	/m/0f40w
@@ -1841,7 +1804,6 @@
 /m/033tf_	/people/ethnicity/people	/m/02dth1
 /m/0219x_	/film/film_genre/films_in_this_genre	/m/027qgy
 /m/017jd9	/award/award_winning_work/awards_won./award/award_honor/award_winner	/m/016zp5
-/m/03rs8y	/award/award_nominee/award_nominations./award/award_nomination/award_nominee	/m/01tvz5j
 /m/050gkf	/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee	/m/0zcbl
 /m/02f72_	/award/award_category/nominees./award/award_nomination/award_nominee	/m/01wyz92
 /m/05smlt	/film/film_job/films_with_this_crew_job./film/film_crew_gig/film	/m/0bmfnjs
@@ -1869,7 +1831,6 @@
 /m/06cv1	/film/producer/film	/m/084qpk
 /m/02bfxb	/film/producer/film	/m/02dr9j
 /m/0hr41p6	/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee	/m/05ty4m
-/m/0kcn7	/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee	/m/01vb403
 /m/0bh8drv	/award/award_nominated_work/award_nominations./award/award_nomination/award	/m/02ppm4q
 /m/03hl6lc	/award/award_category/nominees./award/award_nomination/award_nominee	/m/0184dt
 /m/01jqr_5	/people/person/education./education/education/institution	/m/01w5m
@@ -1896,7 +1857,6 @@
 /m/01dyvs	/film/film/starring./film/performance/actor	/m/0479b
 /m/035qy	/location/location/containedby	/m/02j9z
 /m/01j6t0	/medicine/symptom/symptom_of	/m/01qqwn
-/m/02664f	/award/award_category/winners./award/award_honor/award_winner	/m/03hpr
 /m/01vw20h	/people/person/profession	/m/0dz3r
 /m/06w87	/music/performance_role/regular_performances./music/group_membership/role	/m/03qjg
 /m/09c7w0	/location/location/contains	/m/04ykg
@@ -1924,18 +1884,14 @@
 /m/02bj6k	/award/award_winner/awards_won./award/award_honor/award	/m/09qvc0
 /m/018qb4	/olympics/olympic_games/medals_awarded./olympics/olympic_medal_honor/country	/m/0hzlz
 /m/01rzqj	/film/actor/film./film/performance/film	/m/09p4w8
-/m/04cy8rb	/award/award_nominee/award_nominations./award/award_nomination/nominated_for	/m/0dr_4
 /m/02qyntr	/award/award_category/winners./award/award_honor/honored_for	/m/08vd2q
 /m/040whs	/soccer/football_team/current_roster./soccer/football_roster_position/position	/m/02nzb8
-/m/0dh73w	/film/film_art_director/films_art_directed	/m/0k5g9
 /m/01wwnh2	/people/person/education./education/education/institution	/m/04sylm
 /m/02bg8v	/tv/tv_program/genre	/m/01z77k
 /m/05c9zr	/film/film/other_crew./film/film_crew_gig/film_crew_role	/m/02rh1dz
-/m/02p65p	/award/award_winner/awards_won./award/award_honor/award_winner	/m/05ldnp
 /m/02x_h0	/award/award_winner/awards_won./award/award_honor/award_winner	/m/04xrx
 /m/01g42	/film/actor/film./film/performance/special_performance_type	/m/0147fv
 /m/01vsnff	/music/group_member/membership./music/group_membership/role	/m/04rzd
-/m/02_j1w	/sports/sports_position/players./sports/sports_team_roster/team	/m/05nmg_
 /m/09n48	/olympics/olympic_games/participating_countries	/m/0ctw_b
 /m/02j3d4	/people/person/profession	/m/09jwl
 /m/01rlzn	/sports/sports_team/roster./soccer/football_roster_position/position	/m/02nzb8
@@ -1959,7 +1915,6 @@
 /m/07k53y	/sports/sports_team/roster./american_football/football_historical_roster_position/position_s	/m/02g_7z
 /m/05pd94v	/award/award_ceremony/awards_presented./award/award_honor/award	/m/025m8l
 /m/01xcfy	/award/award_nominee/award_nominations./award/award_nomination/nominated_for	/m/0571m
-/m/099cng	/award/award_category/nominees./award/award_nomination/award_nominee	/m/02vntj
 /m/01w92	/film/production_company/films	/m/01ffx4
 /m/012gx2	/american_football/football_player/position_s	/m/02vkdwz
 /m/0gyy0	/award/award_winner/awards_won./award/award_honor/award	/m/04kxsb
@@ -1994,7 +1949,6 @@
 /m/0bgv8y	/sports/sports_position/players./american_football/football_historical_roster_position/position_s	/m/0bgv4g
 /m/0cc5mcj	/film/film/starring./film/performance/actor	/m/04x1_w
 /m/054ky1	/award/award_category/winners./award/award_honor/award_winner	/m/0h1m9
-/m/0241jw	/award/award_winner/awards_won./award/award_honor/award_winner	/m/015t56
 /m/027m5wv	/film/film/music	/m/0fpjyd
 /m/02sdk9v	/sports/sports_position/players./sports/sports_team_roster/team	/m/02ltg3
 /m/0187x8	/music/artist/genre	/m/0xhtw
@@ -2041,7 +1995,6 @@
 /m/0gq9h	/award/award_category/nominees./award/award_nomination/nominated_for	/m/08nvyr
 /m/027xbpw	/tv/tv_writer/tv_programs./tv/tv_program_writer_relationship/tv_program	/m/019nnl
 /m/01vx2h	/film/film_job/films_with_this_crew_job./film/film_crew_gig/film	/m/02q0k7v
-/m/02_j1w	/sports/sports_position/players./soccer/football_roster_position/team	/m/04ngn
 /m/0gs6vr	/celebrities/celebrity/celebrity_friends./celebrities/friendship/friend	/m/02wb6yq
 /m/04sry	/award/award_nominee/award_nominations./award/award_nomination/award	/m/02x4wr9
 /m/017149	/award/award_nominee/award_nominations./award/award_nomination/award	/m/099jhq
