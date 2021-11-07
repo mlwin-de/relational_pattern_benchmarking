@@ -11,9 +11,9 @@ Details of the studied datasets:
 
 
 The Results of DistMult
-![image](tables/distmult-fb.png)
+![image](tables/distmult-fb-.png)
 
-![image](tables/distmult-wn18.png)
+![image](tables/distmult-wn-.png)
 
 The Results of TransE
 ![image](tables/transe-fb.png)
