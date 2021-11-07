@@ -4,42 +4,10 @@ Benchmarking for KnowledgeGraph link Prediction Task on each specific Relational
 
 
 Details of the studied datasets:
-|       | Dataset Variant                 | Type           | #Entities | #Relations | #Nodes | #Edges| Avg Degree  | Graph Dimension | Strongly Connected Components |
-|-------|-------------|--------------|--------------|---------------|-------------|----------|--------|-------|-------------|
-|       |                                |                 |                |                 |              |              |                  |                  |                             |
-| FB15K | Transductive                   | Symmetry/People | 1044           | 3               | 1044         | 2508         | 4                | 2508             | 142                         |
-|       | Transductive                   | inverse         | 8005           | 626             | 8005         | 26457        | 6                | 26457            | 224                         |
-|       | Transductive                   | AntiSymmetry    | 8005           | 529             | 8005         | 13277        | 3                | 13277            | 5050                        |
-|       | Transductive                   | Inference       | 1337           | 102             | 1337         | 1072         | 1                | 1072             | 1313                        |
-|       | Inductive                      | Symmetry/People | 1062           | 3               | 1062         | 2066         | 3                | 2066             | 328                         |
-|       | Inductive                      | inverse         | 8614           | 626             | 8614         | 20256        | 4                | 20256            | 778                         |
-|       | Inductive                      | AntiSymmetry    | 8539           | 529             | 8539         | 10102        | 2                | 10102            | 7247                        |
-|       | Inductive                      | Inference       | 1413           | 102             | 1413         | 1065         | 1                | 1065             | 1397                        |
-|       | Semi-Inductive-CountBased      | Symmetry/People | 1062           | 3               | 1062         | 2084         | 3                | 2084             | 319                         |
-|       | Semi-Inductive-CountBased      | inverse         | 8614           | 626             | 8614         | 20907        | 4                | 20907            | 740                         |
-|       | Semi-Inductive-CountBased      | AntiSymmetry    | 8539           | 529             | 8539         | 10407        | 2                | 10407            | 7117                        |
-|       | Semi-Inductive-CountBased      | Inference       | 1413           | 102             | 1413         | 1110         | 1                | 1110             | 1389                        |
-|       | Semi-Inductive-HeadOrTailBased | Symmetry/People | 1053           | 3               | 1053         | 2066         | 3                | 2066             | 319                         |
-|       | Semi-Inductive-HeadOrTailBased | inverse         | 9643           | 626             | 9643         | 23799        | 4                | 23799            | 456                         |
-|       | Semi-Inductive-HeadOrTailBased | AntiSymmetry    | 9605           | 529             | 9605         | 11870        | 2                | 11870            | 8122                        |
-|       | Semi-Inductive-HeadOrTailBased | Inference       | 1423           | 102             | 1423         | 1110         | 1                | 1110             | 1407                        |
-| WN18  | Transductive                   | Symmetry        | 16975          | 3               | 16975        | 33268        | 3                | 33268            | 2600                        |
-|       | Transductive                   | inverse         | 12748          | 18              | 12748        | 18117        | 2                | 18117            | 3729                        |
-|       | Transductive                   | AntiSymmetry    | 12748          | 18              | 12748        | 9058         | 1                | 9058             | 12732                       |
-|       | Transductive                   | Inference       | 11549          | 14              | 11549        | 17371        | 3                | 17371            | 2931                        |
-|       | Inductive                      | Symmetry        | 16991          | 3               | 16991        | 31110        | 3                | 31110            | 3977                        |
-|       | Inductive                      | inverse         | 13130          | 18              | 13130        | 18287        | 2                | 18287            | 4019                        |
-|       | Inductive                      | AntiSymmetry    | 13129          | 18              | 13129        | 9143         | 1                | 9143             | 13117                       |
-|       | Inductive                      | Inference       | 13213          | 14              | 13213        | 18327        | 2                | 18327            | 4080                        |
-|       | Semi-Inductive-CountBased      | Symmetry        | 16991          | 3               | 16991        | 31126        | 3                | 31126            | 3962                        |
-|       | Semi-Inductive-CountBased      | inverse         | 13130          | 18              | 13130        | 18502        | 2                | 18502            | 3919                        |
-|       | Semi-Inductive-CountBased      | AntiSymmetry    | 13129          | 18              | 13129        | 9250         | 1                | 9250             | 13113                       |
-|       | Semi-Inductive-CountBased      | Inference       | 13213          | 14              | 13213        | 19151        | 2                | 19151            | 3705                        |
-|       | Semi-Inductive-HeadOrTailBased | Symmetry        | 17012          | 3               | 17012        | 31159        | 3                | 31159            | 3977                        |
-|       | Semi-Inductive-HeadOrTailBased | inverse         | 13121          | 18              | 13121        | 18652        | 2                | 18652            | 3828                        |
-|       | Semi-Inductive-HeadOrTailBased | AntiSymmetry    | 13121          | 18              | 13121        | 9326         | 1                | 9326             | 13109                       |
-|       | Semi-Inductive-HeadOrTailBased | Inference       | 13362          | 14              | 13362        | 20217        | 3                | 20217            | 3285                        |
-
+![image](tables/inductive.png)
+![image](tables/transductive.png)
+![image](tables/htinductive.png)
+![image](tables/pbinducive.png)
 
 
 The Results of DistMult
