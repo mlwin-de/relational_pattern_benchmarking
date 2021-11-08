@@ -56,39 +56,34 @@ The following is index as:
 
 The path to induction setting datasets:
 
-``Datasets/WN18_H/Inductive/``
-``Datasets/FB15K_H/Inductive/``
+``Dataset/Inductive/``
 
 
 ## 1.1 Semi-inductive Datasets
 
 ### 1.1.1 Semi-Inductive-CountBased
 
-They exist in ``Datasets/WN18_H/Semi-Inductive-CountBased/``
-and 
-in ``Datasets/FB15K_H/Semi-Inductive-CountBased/``
+They exist in ``Dataset/Semi-Inductive-CountBased/``
 
-and each folder includes 4 subfolders for a testing a specific relational pattern: AntiSymmetry, Inference, Symmetry, Inverse.   
+and folder includes 4 subfolders for a testing a specific relational pattern: AntiSymmetry, Inference, Symmetry, Inverse.   
 
 ### 1.1.2  Semi-Inductive-Semi-Inductive-HeadOrTailBased
 
 They exist in 
-``/Datasets/WN18_H/Semi-Inductive-HeadOrTailBased/``
-and 
-``/Datasets/FB15K_H/Semi-Inductive-HeadOrTailBased/``
+``/Dataset/Semi-Inductive-HeadOrTailBased/``
 
 and each include 4 datasets for each test type: AntiSymmetry, Inference, Symmetry, Inverse.
 
 ## 2. Transductive Setting Dataset
-They exist in ``/Datasets/FB15K_H/Transductive/`` folder and ``/Datasets/WN18_H/Transductive/``
+They exist in the folder ``/Dataset/Transductive/``.
 
 and each folder includes 4 subfolders for a testing a specific relational pattern: AntiSymmetry, Inference, Symmetry, Inverse.   
 
 
 ## Code for dataset Generation
-The code for generating the dataset consist of several ".py" python scripts in the folder "/utils".  
+The code for generating the dataset consist of several ".py" python scripts in the folder "/code"  to extract the data and evaluate it for the dataleak and extract dataset statistics.  
 
-For example python ``/utils/anti-symm-extractor-fb15k.py`` command generates anti symmetric pattern dataset for fb15k dataset.
+the file dataset_extraction_pipeline.txt contains the pipeline and the order of script executions.
 
 
 ## 3. Train Hyperparamters 
@@ -104,7 +99,8 @@ First make sure that you have all requirements installed.
 - `scipy` (somewhat recent version)
 - `sklearn` (somewhat recent version)
 - `torch` 1.5
+- The evaluated GraIL is based on python 2.6 and its related librares corresponds to python 2.6.
+- The rest of methods where compatible to python 3.9 and torch 1.10. 
 
 ## Usage
-See ``https://github.com/mlwin-de/relational_pattern_benchmarking/code`` for generation of datasets and and ``https://github.com/mlwin-de/relational_pattern_benchmarking/blob/master/hyperparams.txt`` for evaluation examples. 
-
+See ``https://github.com/mlwin-de/relational_pattern_benchmarking/code`` for generation of datasets and and ``https://github.com/mlwin-de/relational_pattern_benchmarking/blob/master/hyperparams.txt`` for running evaluation examples. 
