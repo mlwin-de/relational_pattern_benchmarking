@@ -1,0 +1,98 @@
+#creat pattern head and tail file: do it for transductive and inductive and fb and wn
+#it generates head and tail triples of a pattern
+1. python extract_pattern_dataset.py --path ../Dataset/Original/   --pattern inference
+
+2. python make_train_test_db_from_pattern_db.py --path ../Dataset/to_check 
+
+3.checking datasets for data leak
+#then copy a part of valid and test to train
+#then two times for valid and test (must rename valid to test.txt and run again)
+#each run 3 times:
+python check_data_leak.py --path ../Dataset/to_check  
+mv ../Dataset/to_check/FB15kinference/cleaned_test.txt ../Dataset/to_check/FB15kinference/test.txt 
+
+python check_data_leak.py --path ../Dataset/to_check  
+#for anti_sym and symm use this instead:
+python check_data_leak_keep_sym.py --path ../Dataset/to_check  > view_anti_sym.txt
+
+
+#copy the created folder into final folder and get stads
+python get_dataset_stats.py --path ../Dataset/FB15K_Tra
+
+
+4. report stats:
+
+python get_dataset_stats.py
+------------Inductives: ------------------------------------------------------------------------
+defined over the aggregation of train and test of the original FB15K and WN18
+
+ replace nodes: when we remove an entity from train, we add another triple with
+a) (for fully indtive) : remaining relation and two new entities ( must check if already not existing in both train and test)
+b)  (for half inductive : head-tail based): remaining relation and one new entity( must check if already not existing in both train and test)
+c) for count based incutive: half inductive hald transductive. : keep count of nodes. do the task of inductive for half of nodes in all the test set. 
+
+the pipeline for indctives:
+1 use the head_triple tail_triple made in the transductive pipeline for each pattern and db
+
+2 run the inductive extractor:
+ types: inductive ind_semi_htbased   ind_semi_half
+ for example : python make_inductiveDBs.py --path ../Dataset/to_check --path_original ../Dataset/Original_wn/WN18 --type inductive
+with current folders:
+python make_inductiveDBs.py --path ../Dataset/to_check_wn --path_original ../Dataset/Original_wn/WN18 --type inductive
+done done
+python make_inductiveDBs.py --path ../Dataset/to_check_wn --path_original ../Dataset/Original_wn/WN18 --type ind_semi_htbased
+done done
+python make_inductiveDBs.py --path ../Dataset/to_check_wn --path_original ../Dataset/Original_wn/WN18 --type ind_semi_half
+done done
+
+do again: done
+python make_inductiveDBs.py --path ../Dataset/to_check_fb --path_original ../Dataset/Original_fb/FB15K --type inductive
+done done
+do again: done 
+python make_inductiveDBs.py --path ../Dataset/to_check_fb --path_original ../Dataset/Original_fb/FB15K --type ind_semi_htbased
+done done
+dp again: done
+python make_inductiveDBs.py --path ../Dataset/to_check_fb --path_original ../Dataset/Original_fb/FB15K --type ind_semi_half
+done
+
+move them to new folder : to_check_step2
+rename inductive_train.txt to train.txt
+rename inductive_test.txt to test.txt
+rename inductive_calid.txt to valid.txt
+
+put them in seprate folders per fb and wn and type (inductive ,semi..)
+
+3 apply check data and inverse leak : 
+
+
+
+ python check_data_leak.py --path ../Dataset/to_check_fb/fb_antisymm
+ python check_data_leak.py --path ../Dataset/to_check_fb/fb_inference
+python check_data_leak.py --path ../Dataset/to_check_fb/fb_inverse -> do again - not check for inverse, only COMMON triples
+python check_data_leak_keep_sym.py --path ../Dataset/to_check_fb/fb_sym -> do again - not check for sym only inverse and common triple
+done
+ python check_data_leak.py --path ../Dataset/to_check_wn/wn18_inferece > wn_inferese_check.txt
+ done
+ python check_data_leak_keep_sym.py --path ../Dataset/to_check_wn/wn18_sym  > wn_sym_check.txt
+ done
+python check_data_leak.py --path ../Dataset/to_check_wn/wn18_inverse > inverse_check.txt  -> not used reverse remoed file: for inverse,see only COMMON triples
+done
+python check_data_leak.py --path ../Dataset/to_check_wn/wn18_anti_sym > wn_anti_sym_check.txt
+done
+
+
+
+4. the test dataset of inductive is too big, double size of train. make it smaller:
+
+python make_test_valid_files_half.py --path '../Dataset/to_check_fb/fb_inverse/'
+python make_test_valid_files_half.py --path '../Dataset/to_check_fb/fb_sym/'
+
+wn18_anti_sym is too big. both train and test! 
+python make_test_valid_files_half.py --path '../Dataset/to_check_wn/wn18_anti_sym/'
+
+5. report stats:
+
+python get_dataset_stats.py --path ../Dataset/Inductive > ../Inductive_datasets_stats.txt
+python get_dataset_stats.py --path ../Dataset/Semi-Inductive-CountBased > ../Semi_Inductive_CountBased_datasets_stats.txt
+python get_dataset_stats.py --path ../Dataset/Transductive > ../Transductive_datasets_stats.txt
+python get_dataset_stats.py --path ../Dataset/Semi-Inductive-HeadOrTailBased > ../Semi_Inductive_HeadOrTailBased_datasets_stats.txt
