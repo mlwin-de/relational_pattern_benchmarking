@@ -1,0 +1,2 @@
+There is 4 catagory of datasets based on 4 relation patterns. Each catagory includes Transductive, Inductive and , Semi-inductive head-tail based and Semi-inductive 50% triples and each
+extracted once from FB15K and once from WN18. In total 32 dataset of train, validation and test exist in this folder.
