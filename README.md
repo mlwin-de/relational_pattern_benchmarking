@@ -16,34 +16,34 @@ The Results of DistMult
 ![image](tables/distmult-wn-.png)
 
 The Results of TransE
-![image](tables/transe-fb.png)
+![image](tables/transe-fb-.png)
 
-![image](tables/transe-wn18.png)
+![image](tables/transe-wn-.png)
 
 The Results of RotatE
-![image](tables/rotate-fb.png)
+![image](tables/rotate-fb-.png)
 
-![image](tables/rotate-wn18.png)
+![image](tables/rotate-wn-.png)
 
 The Results of MDE
-![image](tables/mde-fb.png)
+![image](tables/mde-fb-.png)
 
-![image](tables/mde-wn18.png)
+![image](tables/mde-wn-.png)
 
 The Results of QuatE
-![image](tables/quate-fb.png)
+![image](tables/quate-fb-.png)
 
-![image](tables/quate-wn18.png)
+![image](tables/quate-wn-.png)
 
 The Results of GraIL
-![image](tables/grail-fb.png)
+![image](tables/grail-fb-.png)
 
-![image](tables/grail-wn18.png)
+![image](tables/grail-wn-.png)
 
-The Results of FGA-NN
-![image](tables/gfa-nn-fb15k.png)
+The Results of GFA-NN
+![image](tables/gfa-nn-fb-.png)
 
-![image](tables/gfa-nn-wn18.png)
+![image](tables/gfa-nn-wn-.png)
 
 The following is index as:
 
@@ -106,5 +106,5 @@ First make sure that you have all requirements installed.
 - `torch` 1.5
 
 ## Usage
-See ``https://github.com/mlwin-de/relational_pattern_benchmarking/blob/master/utils/relationalpatterns.py`` for generation of datasets and and ``https://github.com/mlwin-de/relational_pattern_benchmarking/blob/master/hyperparams.txt`` for evaluation examples. 
+See ``https://github.com/mlwin-de/relational_pattern_benchmarking/code`` for generation of datasets and and ``https://github.com/mlwin-de/relational_pattern_benchmarking/blob/master/hyperparams.txt`` for evaluation examples. 
 
