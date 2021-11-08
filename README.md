@@ -104,5 +104,5 @@ the file dataset_extraction_pipeline.txt contains the pipeline and the order of 
 
  
 ## Contact:
-Please send us the result of your methods to afshin.sadeghi at iais.fraunhofer.de on this dataset and we will share it here. We encourage using the executable version of the benchmark and the model using  [benchEmbedd](https://github.com/mlwin-de/BenchEmbedd) which allows anybody to run methods in docker.
+Please send us the result of your methods to afshin.sadeghi at iais.fraunhofer.de on this dataset and we will share it here. We encourage using the executable version of the benchmark and the model using  [BenchEmbedd](https://github.com/mlwin-de/BenchEmbedd) which allows anybody to run methods in docker.
 
