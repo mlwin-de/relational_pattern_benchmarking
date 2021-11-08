@@ -1,0 +1,12 @@
+terrorism.n.01	_hyponym	ecoterrorism.n.01
+terrorism.n.01	_hyponym	narcoterrorism.n.01
+ball_game.n.01	_hyponym	baseball.n.01
+terrorism.n.01	_hyponym	chemical_terrorism.n.01
+law.n.01	_hyponym	civil_law.n.01
+cultivation.n.02	_hyponym	farming.n.01
+jurist.n.01	_derivationally_related_form	law.n.01
+chemist.n.01	_derivationally_related_form	chemistry.n.01
+cut.v.36	_also_see	interrupt.v.01
+discover.v.04	_also_see	learn.v.02
+pass.v.01	_also_see	transit.v.01
+computer_science.n.01	_member_of_domain_topic	computer.n.01

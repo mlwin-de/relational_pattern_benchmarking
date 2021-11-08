@@ -1,0 +1,10 @@
+terrorism.n.01	_hyponym	theoterrorism.n.01
+body_of_water.n.01	_hyponym	ocean.n.01
+inhibit.v.04	_hyponym	restrain.v.01
+ride_horseback.v.01	_derivationally_related_form	riding.n.01
+shivaism.n.01	_derivationally_related_form	shivaist.n.01
+travel.v.01	_also_see	advance.v.01
+travel.v.01	_also_see	withdraw.v.01
+statistical_method.n.01	_part_of	statistics.n.01
+backbeat.n.01	_part_of	rock_'n'_roll.n.01
+draw_in.v.01	_verb_group	attract.v.01
