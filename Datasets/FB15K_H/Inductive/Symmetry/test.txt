@@ -1,6 +1,0 @@
-/m/03h_fk5	/people/person/spouse_s./people/marriage/spouse	/m/01h5f8
-/m/05kh_	/people/person/spouse_s./people/marriage/spouse	/m/01pl9g
-/m/0b66qd	/people/person/spouse_s./people/marriage/spouse	/m/01ggbx
-/m/02k4gv	/base/popstra/celebrity/friendship./base/popstra/friendship/participant	/m/0kxbc
-/m/069d68	/people/person/sibling_s./people/sibling_relationship/sibling	/m/069d71
-/m/069d71	/people/person/sibling_s./people/sibling_relationship/sibling	/m/069d68

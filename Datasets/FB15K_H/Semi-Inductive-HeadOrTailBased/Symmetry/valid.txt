@@ -1,6 +1,0 @@
-/m/02ktrs	/base/popstra/celebrity/friendship./base/popstra/friendship/participant	/m/01wmgrf
-/m/0c7xjb	/base/popstra/celebrity/friendship./base/popstra/friendship/participant	/m/02m3sd
-/m/015z4j	/base/popstra/celebrity/friendship./base/popstra/friendship/participant	/m/01vx5w7
-/m/0161h5	/base/popstra/celebrity/friendship./base/popstra/friendship/participant	/m/01fs_4
-/m/01c65z	/people/person/spouse_s./people/marriage/spouse	/m/014g22
-/m/0408np	/people/person/spouse_s./people/marriage/spouse	/m/023tp8
