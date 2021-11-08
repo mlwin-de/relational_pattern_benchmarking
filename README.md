@@ -103,4 +103,9 @@ First make sure that you have all requirements installed.
 - The rest of methods where compatible to python 3.9 and torch 1.10. 
 
 ## Usage
-See ``https://github.com/mlwin-de/relational_pattern_benchmarking/code`` for generation of datasets and and ``https://github.com/mlwin-de/relational_pattern_benchmarking/blob/master/hyperparams.txt`` for running evaluation examples. 
+See [https://github.com/mlwin-de/relational_pattern_benchmarking/code](https://github.com/mlwin-de/relational_pattern_benchmarking/code) for generation of datasets and and [https://github.com/mlwin-de/relational_pattern_benchmarking/blob/master/hyperparams.txt](https://github.com/mlwin-de/relational_pattern_benchmarking/blob/master/hyperparams.txt) for running evaluation examples. 
+
+
+## Contact:
+Please send us the result of your methods to afshin.sadeghi at iais.fraunhofer.de on this dataset and we will share it here. We encourage using the executable version of the benchmark and the model using  [benchEmbedd](https://github.com/mlwin-de/BenchEmbedd) which allows anybody to run methods in docker.
+
