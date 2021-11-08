@@ -80,19 +80,14 @@ They exist in the folder ``/Dataset/Transductive/``.
 and each folder includes 4 subfolders for a testing a specific relational pattern: AntiSymmetry, Inference, Symmetry, Inverse.   
 
 
-## Code for dataset Generation
-The code for generating the dataset consist of several ".py" python scripts in the folder "/code"  to extract the data and evaluate it for the dataleak and extract dataset statistics.  
-
-the file dataset_extraction_pipeline.txt contains the pipeline and the order of script executions.
-
-
 ## 3. Train Hyperparamters 
 The train Hyperparamters and commands used to train each model is listed in hyperparams.txt
 
 ## 4. Installation & Usage
 
 First make sure that you have all requirements installed.
-###  Requirements
+
+###  Requirements for the Evaluation
 - `networkx`
 - `numpy` 
 - `Python` 3.x
@@ -100,12 +95,14 @@ First make sure that you have all requirements installed.
 - `sklearn` (somewhat recent version)
 - `torch` 1.5
 - The evaluated GraIL is based on python 2.6 and its related librares corresponds to python 2.6.
-- The rest of methods where compatible to python 3.9 and torch 1.10. 
+- The rest of methods are compatible to python 3.9 and torch 1.10. 
 
-## Usage
-See [https://github.com/mlwin-de/relational_pattern_benchmarking/code](https://github.com/mlwin-de/relational_pattern_benchmarking/code) for generation of datasets and and [https://github.com/mlwin-de/relational_pattern_benchmarking/blob/master/hyperparams.txt](https://github.com/mlwin-de/relational_pattern_benchmarking/blob/master/hyperparams.txt) for running evaluation examples. 
+### Script used for dataset Generation
+The code for generating the dataset consist of several ".py" python scripts in the folder "/code"  to extract the data and evaluate it for the dataleak and extract dataset statistics.  
 
+the file dataset_extraction_pipeline.txt contains the pipeline and the order of script executions.
 
+ 
 ## Contact:
 Please send us the result of your methods to afshin.sadeghi at iais.fraunhofer.de on this dataset and we will share it here. We encourage using the executable version of the benchmark and the model using  [benchEmbedd](https://github.com/mlwin-de/BenchEmbedd) which allows anybody to run methods in docker.
 
