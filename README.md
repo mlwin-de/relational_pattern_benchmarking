@@ -106,3 +106,15 @@ the file dataset_extraction_pipeline.txt contains the pipeline and the order of 
 ## Contact:
 Please send us the result of your methods to afshin.sadeghi at iais.fraunhofer.de on this dataset and we will share it here. We encourage using the executable version of the benchmark and the model using  [BenchEmbedd](https://github.com/mlwin-de/BenchEmbedd) which allows anybody to run methods in docker.
 
+
+
+## Citation
+If you find this code useful, please consider citing the following paper.
+```
+@inproceedings{sadeghi2021relational,
+  title={Relational Pattern Benchmarking on the Knowledge Graph Link Prediction Task},
+  author={Sadeghi, Afshin and Malik, Hirra Abdul and Collarana, Diego and Lehmann, Jens},
+  booktitle={Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)},
+  year={2021}
+}
+```
