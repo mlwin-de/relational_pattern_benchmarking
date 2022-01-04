@@ -119,4 +119,4 @@ If you find this code useful, please consider citing the following paper.
 }
 ```
 
-[![CC BY 4.0][cc-by-image]][cc-by]
+
