@@ -118,3 +118,5 @@ If you find this code useful, please consider citing the following paper.
   year={2021}
 }
 ```
+
+[![CC BY 4.0][cc-by-image]][cc-by]
