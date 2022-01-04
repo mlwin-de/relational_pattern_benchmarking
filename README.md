@@ -119,4 +119,5 @@ If you find this code useful, please consider citing the following paper.
 }
 ```
 
+[![DOI](https://zenodo.org/badge/397363597.svg)](https://zenodo.org/badge/latestdoi/397363597)
 
