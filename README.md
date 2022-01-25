@@ -118,6 +118,7 @@ If you find this code useful, please consider citing the following paper.
   year={2021}
 }
 ```
+Here is the [paper Link the NeurIPS website](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/9a1158154dfa42caddbd0694a4e9bdc8-Paper-round2.pdf). 
 
 [![DOI](https://zenodo.org/badge/397363597.svg)](https://zenodo.org/badge/latestdoi/397363597)
 
